@@ -91,3 +91,25 @@ vi /etc/hosts
                                 ::1         localhost.localdomain   localhost
                                 127.0.1.1   nome_pc.localdomain     nome_pc
 ```
+# Creazione utente e reset password:
+```
+passwd                                                # Imposta password utente root
+useradd -m -G wheel -s /bin/bash nomeutente
+passwd nomeutente                                     # Imposta password utente appena creato
+pacman -Syyu sudo vim                                 # Installo sudo e vim (Sync db arch+full upgrade -yyu)
+visudo                                                # Togliere commento alla riga:  %wheel ALL=(ALL) ALL
+```
+# Installare Bootloader (grub2):
+```
+pacman -S grub linux-headers
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+mkinitcpio -p linux
+```
+# Abilitare Dhcp all'avvio, uscita Chroot e riavvio:
+```
+systemctl enable dhcpcd.service
+exit
+umount -R /mnt
+reboot
+```
