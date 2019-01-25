@@ -40,4 +40,5 @@ cfdisk
 ```
 
 Per aggiungere partizione di swap crea una quarta partizione (in questo caso `/dev/sda4`)
+Formatta: `mkswap /dev/sda4` e abilita la swap con `swapon /dev/sda4`.
 
