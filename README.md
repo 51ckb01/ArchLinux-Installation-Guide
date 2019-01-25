@@ -39,8 +39,5 @@ cfdisk
 /dev/sda3         # Home
 ```
 
-Per aggiungere partizione di swap
-
-
-Crea una quarta partizione (in questo caso /dev/sda4)
+Per aggiungere partizione di swap crea una quarta partizione (#in questo caso /dev/sda4)
 
