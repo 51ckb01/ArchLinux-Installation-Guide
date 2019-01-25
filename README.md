@@ -63,4 +63,11 @@ mount /dev/sda3 /mnt/home
 # Monto /dev/sda1 (partizione di boot) in /mnt/boot
 # Monto /dev/sda3 (la partizione della home) in /mnt/home
 ```
-
+# Installazione sistema base:
+```
+pacstrap /mnt base base-devel
+```
+# Generazione del file fstab e login chroot nel sistema appena installato:
+```
+genfstab -p /mnt >> /mnt/etc/fstab          # Genera il file in /etc/fstab
+arch-chroot /mnt                            # Entro in chroot per modificare il sistema appena installato
