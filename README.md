@@ -57,9 +57,9 @@ mkdir /mnt/boot /mnt/home
 mount /dev/sda1 /mnt/boot
 mount /dev/sda3 /mnt/home
 
-# Questa è una configurazione con 3 partizioni
+
 # Monto la root (/dev/sda2 sotto /mnt) 
-# Creo le cartelle /boot e /home nella partizione sda2 appena montata in /mnt
+# Creo le cartelle /boot e /home nella partizione /dev/sda2 appena montata in /mnt
 # Monto /dev/sda1 (partizione di boot) in /mnt/boot
 # Monto /dev/sda3 (la partizione della home) in /mnt/home
 ```
