@@ -32,7 +32,9 @@ Rel. 2.1
 loadkeys it
 cfdisk
 ```
+
 # Struttura delle partizioni:
+
 ```
 /dev/sda1         # boot (flag bootable)
 /dev/sda2         # root (/)
