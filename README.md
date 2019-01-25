@@ -35,11 +35,9 @@ cfdisk
 ## Struttura delle partizioni:
 ```
 /dev/sda1         # boot (flag bootable)
-/dev/sda2         # root(/)
+/dev/sda2         # root (/)
 /dev/sda3         # Home
+/dev/sda4         # Swap
 ```
 
-Per aggiungere partizione di swap crea una quarta partizione (in questo caso `/dev/sda4`)
-
-Formatta: `mkswap /dev/sda4` e abilita la swap con `swapon /dev/sda4`.
 
