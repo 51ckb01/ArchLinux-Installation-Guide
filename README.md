@@ -87,7 +87,7 @@ hwclock --systohc --utc
 echo "nome_pc" > /etc/hostname
 vi /etc/hosts
                     # Inserire:
-                                127.0.0.1	  localhost.localdomain 	localhost
-                                ::1		      localhost.localdomain		localhost
-                                127.0.1.1	  nome_pc.localdomain	    nome_pc
+                                127.0.0.1   localhost.localdomain   localhost
+                                ::1         localhost.localdomain   localhost
+                                127.0.1.1   nome_pc.localdomain     nome_pc
 ```
