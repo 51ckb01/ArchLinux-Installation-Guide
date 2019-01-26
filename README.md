@@ -6,7 +6,7 @@ Release date: 2019.01.26
 
 Rel. 2.2
 
-#Youtube Video Tutorial:
+# Youtube Video Tutorial:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/d6xPdCzxxcg/0.jpg)](http://www.youtube.com/watch?v=d6xPdCzxxcg "Arch Linux Installation Guide")
 
