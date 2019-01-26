@@ -1,7 +1,9 @@
 # ArchLinux-Installation-Guide
 
 Guida Installazione ArchLinux
+
 Release date: 2019.01.26
+
 Rel. 2.2
 
 
