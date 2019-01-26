@@ -111,11 +111,11 @@ LC_ALL="it_IT.UTF-8"
 
 # Creazione utente e reset password:
 ```
-passwd                                              # Imposta password utente root
+passwd                                             # Imposta password utente root
 useradd -m -G wheel -s /bin/bash nomeutente
-passwd nomeutente                                   # Imposta password utente appena creato
-pacman -Syyu sudo vim                               # Installo sudo e vim (Sync db arch+full upgrade -yyu)
-visudo                                              # Togliere commento alla riga:  %wheel ALL=(ALL) ALL
+passwd nomeutente                                  # Imposta password utente appena creato
+pacman -Syyu sudo vim                              # Installo sudo e vim (Sync db arch+full upgrade -yyu)
+visudo                                             # Togliere commento alla riga:  %wheel ALL=(ALL) ALL
 ```
 # Installare Bootloader (grub2):
 ```
