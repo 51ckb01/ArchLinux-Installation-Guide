@@ -61,7 +61,7 @@ pacstrap /mnt base base-devel
 ```
 # Generazione del file fstab e login chroot nel sistema appena installato:
 ```
-genfstab -U /mnt >> /mnt/etc/fstab          # Genera il file in /etc/fstab (-U per scrivere gli UUID delle partizioni)
+genfstab -U /mnt >> /mnt/etc/fstab          # Genera il file in /etc/fstab (-U per scrivere gli UUID)
 arch-chroot /mnt                            # Entro in chroot per modificare il sistema appena installato
 ```
 # Lingua, Data/ora, hostname
